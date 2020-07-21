@@ -1,18 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject GameOverPanel;
+    public GameObject Player;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        if (Player.transform.position.z > 9)
+        {
+            GameOverPanel.SetActive(true);
+        }
     }
 }

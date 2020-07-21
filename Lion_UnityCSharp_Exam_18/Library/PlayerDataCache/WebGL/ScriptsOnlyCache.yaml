@@ -1,7 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Runner
+    - GameManager
     - SceneChanger
     - SceneChanger2
     - SceneChanger3
@@ -76,27 +76,27 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 13684}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14434}
+      Script: {instanceID: 12012}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 14586}
+      Script: {instanceID: 12164}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 15364}
+      Script: {instanceID: 12960}
     - Class: 114
-      Script: {instanceID: 16522}
+      Script: {instanceID: 19782}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -137,23 +137,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 13848}
+      Script: {instanceID: 11422}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 15132}
+      Script: {instanceID: 12726}
     - Class: 114
-      Script: {instanceID: 15364}
+      Script: {instanceID: 12960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,23 +198,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 14126}
+      Script: {instanceID: 11700}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14430}
+      Script: {instanceID: 12008}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 15364}
+      Script: {instanceID: 12960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -275,23 +275,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 11182}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 13958}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 11532}
     - Class: 114
-      Script: {instanceID: 14428}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 12012}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 15364}
+      Script: {instanceID: 12610}
+    - Class: 114
+      Script: {instanceID: 12960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,21 +334,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 13586}
+      Script: {instanceID: 11156}
     - Class: 114
-      Script: {instanceID: 13750}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 13790}
+      Script: {instanceID: 11362}
     - Class: 114
-      Script: {instanceID: 14176}
+      Script: {instanceID: 11750}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 12132}
     - Class: 114
-      Script: {instanceID: 14932}
+      Script: {instanceID: 12524}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 15364}
+      Script: {instanceID: 12960}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -378,7 +380,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 19ff083ad20269fc970076fa096e386c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager

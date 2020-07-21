@@ -13,7 +13,7 @@ public class one : MonoBehaviour
 
     private void Update()
     {
-        if (cube.transform.position.z< 1)
+        if (cube.transform.position.z< 9)
         {
             cube.transform.position += Vector3.forward * speed * Time.deltaTime;
         }

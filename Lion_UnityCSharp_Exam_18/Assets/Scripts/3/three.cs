@@ -28,7 +28,7 @@ public class three : MonoBehaviour
         {
             for (int j = 0; j < (i + 1); j++)
             {
-                Vector3 pos2 = new Vector3(i * -1, j * 1, 0);
+                Vector3 pos2 = new Vector3(i * -1+8, j * 1, 0);
                 Instantiate(cube, pos2, Quaternion.identity);
             }
         }
@@ -37,7 +37,7 @@ public class three : MonoBehaviour
         {
             for (int j = 0; j < (i + 1); j++)
             {
-                Vector3 pos2 = new Vector3(i * -1, j * -1, 0);
+                Vector3 pos2 = new Vector3(i * -1+8, j * -1, 0);
                 Instantiate(cube, pos2, Quaternion.identity);
             }
         }
