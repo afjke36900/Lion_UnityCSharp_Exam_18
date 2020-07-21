@@ -332,7 +332,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4E0A\u4E00\u984C"
+  m_Text: Back
 --- !u!222 &350872280
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6309\u4E0BO\u524D\u5F80\u4E0A\u4E00\u984C\uFF0C\u6309\u4E0BP\u524D\u5F80\u4E0B\u4E00\u984C"
+  m_Text: "O : Back \uFF0CP : Next"
 --- !u!222 &1563828118
 CanvasRenderer:
   m_ObjectHideFlags: 0
